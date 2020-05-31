@@ -17,7 +17,10 @@
          2.定时器和日志的设计和构造
 ## 解决方法：
           看书以及muduo网络库的源码可以明确设计思路，使用UML可以理清各模块间的联系
-          
+          log:
+          ![Image text](https://github.com/1360307811/small_web_server/blob/master/image/log.png)
+          server:
+          ![Image text](https://github.com/1360307811/small_web_server/blob/master/image/server.png)
           
 ## 测试:
          webbench -c 100 -t 5:Speed=432800 pages/min,152655 bytes/sec. Requests: 36062, 0 failed.
